@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1em;
+    text-align: justify;
+}
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --fonte-destaque:'Bebas Neue', sans-serif; 
+ }
+
+html, body {
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    min-height: 100vh;
+    
+}
+
+header{
+    
+    background-image: url('../imagens/imagem001-pq.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.205);
+    
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+    font-size: 7vw;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.329);
+
+}
+
+header > p {
+    padding-bottom: 30px;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.329);
+}
+
+section {
+    background-color:var(--cor4);
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5em;
+}
+section > p {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.329);
+}
+
+.imagem1 {
+    height: 100vh;
+    background-image: url('../imagens/imagem002.jpg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+   
+}
+
+
+.imagem2 {
+    height: 100vh;
+    background-image: url('../imagens/imagem003.jpg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+}
+
+footer {
+   
+    background-color: var(--cor4);
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: var(--cor5);
+    text-decoration: underline;
+}
